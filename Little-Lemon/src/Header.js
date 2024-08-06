@@ -1,5 +1,5 @@
 import React from "react";
-import Food from './restaurantfood.jpg';
+import Food from './restauranfood.jpg';
 
 function Header(){
     return(

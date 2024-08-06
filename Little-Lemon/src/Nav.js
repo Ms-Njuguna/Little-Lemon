@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './Nav.css';
 import Logo from './Logo .svg';
 
 
@@ -7,7 +7,7 @@ function Navbar() {
    return (
       <nav className="navbar">
          <div className="navbar-left">
-            <img src={Logo} className="Logo" />
+            <img src={Logo} className="Logo" alt='logo' />
          </div>
          <div className="navbar-center">
             <ul className="nav-links">
