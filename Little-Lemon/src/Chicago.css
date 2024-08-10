@@ -1,0 +1,51 @@
+.about-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #EDEFEE;
+    min-height: 73vh;
+    max-height: 80vh;
+    margin-left: -300px;
+    
+}
+
+.about-images{
+    margin-left: 200px;
+    margin-top: -650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    position: relative; 
+}
+
+.A img{
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.B img{
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.abot-desription{
+    margin-top: 0px;
+    margin-left: 500px;
+    color: #495E57;
+}
+
+.about-section p{
+    color: #495E57;
+}
+
+.about-section h1{
+    color: #495E57;
+    margin-left: 100px;
+}
+
+.about-section h3{
+    color: #495E57;
+    margin-left: 100px;
+    margin-top: 1px;
+}

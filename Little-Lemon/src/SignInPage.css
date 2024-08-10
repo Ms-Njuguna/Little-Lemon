@@ -1,0 +1,14 @@
+.homeIcon{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.backIcon{
+    margin-left: 1400px;
+    margin-top: 25px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,33 @@
+.specials{
+    margin-left: 250px;
+}
+ 
+.main-banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin-left: 20px;
+    margin-right: 60px;
+    
+}
+
+.main-banner button{
+    font-size: 18px;
+    border-radius: 18px;
+    margin-left: 120px;
+    background-color: #F4CE14;
+    border-width: 0.09rem;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.online-menu{
+    margin-left: 175px;
+}
+
+.main-heading h2{
+    margin-left: 0px;
+}
