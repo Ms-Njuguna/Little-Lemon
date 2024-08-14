@@ -18,13 +18,13 @@ function SignIn(){
            <label for="res-time"><span style={{color: '#ff0000', marginRight:'8px'}}>*</span>Last Name</label>
            <input type="text" id="res-time" required/>
            <label for="guests"><span style={{color: '#ff0000', marginRight:'8px'}}>*</span>Phone Number</label>
-           <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" id="guests" required/>
+           <input type="tel"  id="guests" required/>
            <label for="occasion"><span style={{color: '#ff0000', marginRight:'8px'}}>*</span>Email</label>
            <input type="email" id="occassion" style={{paddingTop:'8px', paddingBottom:'8px'}} required/>
-           <label id='seating'><span style={{color: '#ff0000', marginRight:'8px'}}>*</span>7-character Password is all you need</label>
+           <label id='seating' style={{marginBottom:'-15px', color:'#000000'}}><span style={{color: '#ff0000', marginRight:'8px'}}>*</span>7-character Password is all you need</label>
            <input type="password" id="seating" minLength="7" style={{paddingTop:'8px', paddingBottom:'8px'}} required/>
            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Add a special request (optional)"></textarea>
-           <input type="submit" value="Continue" id="reserve"/>
+           <input type="submit" value="Continue" id="reserve" style={{fontSize:'13px'}}/>
         </form>
     )
 }

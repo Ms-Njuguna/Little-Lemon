@@ -4,6 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+document.addEventListener('DOMContentLoaded', () => {
+  console.log(window.fetchAPI); // Check if fetchAPI is loaded properly
+  if (typeof window.fetchAPI === 'function') {
+      // Initialize your React app here
+      ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  } else {
+      console.error('fetchAPI is not loaded!');
+  }
+});
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
