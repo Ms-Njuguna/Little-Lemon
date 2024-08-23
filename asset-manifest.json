@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ms-Njuguna/little-lemon.git/static/css/main.0a486bdb.css",
-    "main.js": "/Ms-Njuguna/little-lemon.git/static/js/main.6dcd3e5d.js",
+    "main.js": "/Ms-Njuguna/little-lemon.git/static/js/main.93fa7550.js",
     "static/js/453.235ac2fd.chunk.js": "/Ms-Njuguna/little-lemon.git/static/js/453.235ac2fd.chunk.js",
     "static/media/Mario and Adrian A.jpg": "/Ms-Njuguna/little-lemon.git/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
     "static/media/Mario and Adrian b.jpg": "/Ms-Njuguna/little-lemon.git/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
@@ -23,11 +23,11 @@
     "static/media/Recent.svg": "/Ms-Njuguna/little-lemon.git/static/media/Recent.e0aaaf80c16d160b4080ddb67100904d.svg",
     "static/media/Dish icon.svg": "/Ms-Njuguna/little-lemon.git/static/media/Dish icon.eb7158edce238dc7aca3136bea670abb.svg",
     "main.0a486bdb.css.map": "/Ms-Njuguna/little-lemon.git/static/css/main.0a486bdb.css.map",
-    "main.6dcd3e5d.js.map": "/Ms-Njuguna/little-lemon.git/static/js/main.6dcd3e5d.js.map",
+    "main.93fa7550.js.map": "/Ms-Njuguna/little-lemon.git/static/js/main.93fa7550.js.map",
     "453.235ac2fd.chunk.js.map": "/Ms-Njuguna/little-lemon.git/static/js/453.235ac2fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a486bdb.css",
-    "static/js/main.6dcd3e5d.js"
+    "static/js/main.93fa7550.js"
   ]
 }
