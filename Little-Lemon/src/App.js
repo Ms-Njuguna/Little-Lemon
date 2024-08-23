@@ -6,23 +6,19 @@ import BookingPage from './BookingPage.js';
 import SignInPage from './SignInPage.js';
 import './App.css';
 import ConfirmedBooking from './ConfirmedBooking.js';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Switch }  from "react-router-dom";
 
 
 function App() {
   return (
     <>
     <Router>
-      <Routes>
+      <Switch>
         <Route path='/' element={<Homepage/>}></Route>
         <Route path='/booking' element={<BookingPage/>}></Route>
         <Route path='/signin' element={<SignInPage/>}></Route>
         <Route path="/confirmed-booking" element={<ConfirmedBooking />} />
-      </Routes>
+      </Switch>
     </Router>
     </>
   );
